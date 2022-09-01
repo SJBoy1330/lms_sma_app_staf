@@ -1,0 +1,8 @@
+.bg-dropdown{
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.btn.bg-dropdown:hover{
+    background-color: #E5E5E5;
+}

@@ -1,0 +1,70 @@
+.form-check-input {
+    width: 1.1em;
+    height: 1.1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #E5E5E5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #E5E5E5;
+    appearance: none;
+    color-adjust: exact;
+}
+
+.form-check-input:checked {
+    background-color: #EC3528;
+    border: #EC3528;
+}
+
+.badge-ijin {
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #FF8C32;
+}
+
+.badge-hadir {
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #00DFA3;
+}
+
+button.btn-surat-izin {
+    width: 100%;
+    background-color: #FF8C32;
+    border: 1px solid #FF8C32;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 45px;
+    padding-top: 10px;
+}
+
+div.col.presensi-siswa {
+    width: 70%;
+}
+
+div.col.presensi-siswa p {
+    word-wrap: break-word;
+}
+
+.wrapper-button {
+    position: fixed;
+    width: 93%;
+    bottom: 10px;
+}

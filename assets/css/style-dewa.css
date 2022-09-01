@@ -1,0 +1,224 @@
+.not-found{
+  height: 100vh;
+}
+
+.categories{
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.categories::-webkit-scrollbar{
+  visibility: hidden;
+}
+
+.btn-cty{
+  background-color: #fff;
+  border: 2px #d2c1c1 solid;
+
+}
+
+.btn-cty-active{
+  background-color: red;
+  color: white;
+  border: 2px white solid;
+}
+
+.bg-notif-readed{
+  background-color: #FFEAEA;
+}
+
+
+.dot-notif{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tag.activee {
+  color: white;
+  background-color: #ec3528;
+}
+
+.text-small{
+  font-size: xx-small;
+}
+
+.image-profile{
+  width: fit-content;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-profile-upload {
+  transform: translate(-80%,-80%);
+
+}
+
+.bg-ec3528{
+  background-color: #ec3528;
+}
+
+.lg-size-myicon{
+  font-size: 20px;
+  padding: 0 2px;
+}
+
+.xl-size-myicon{
+  font-size: 28px;
+  padding: 3px 8px;
+}
+
+.bg-f5f5f5{
+  background-color: #f5f5f5;
+}
+
+.bg-00DFA3{
+  background-color: #00dfa3;
+}
+
+.avatar-125{
+  line-height: 125px;
+  height: 125px;
+  width: 125px;
+}
+
+.avatar.avatar-profile{
+  border-radius: 35px;
+}
+
+.bg-grey{
+  background-color: #d9d1d1;
+}
+
+.circle-icon {
+  width: 22px;
+  height: 22px;
+  background-color: #ec3528;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.icon-box-profile{
+  width: 40px;
+  height: 40px;
+}
+
+.icon-box-profile-sm{
+  width: 31px;
+  height: 31px;
+}
+
+.password-field{
+  border: none;
+}
+
+.ul-form-pembayaran{
+  list-style: none;
+}
+
+.ul-form-pembayaran li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.btn-cty{
+  background-color: #fff;
+  border: 2px #918e8e solid;
+
+}
+
+.btn-cty-active{
+    background-color: red;
+    color: white;
+    border: 2px white solid;
+}
+
+.bg-notif-readed{
+    background-color: #FFEAEA;
+}
+
+.btn-mark{
+    margin: 100px 0;
+    border: 2px #ff0000 solid;
+    color: #ff0000;
+}
+
+.btn-marked{
+    border: 2px #fff solid;
+    color: white;
+    background-color: #ff0000;
+}
+
+.col.gender-laki{
+  height: 45px;
+}
+
+.col.gender-perempuan{
+  height: 45px;
+}
+
+.form-check-input:checked {
+  background-color: #ec3528;
+  border-color: #ec3528;
+}
+
+button.btn-simpan{
+  height: 55px;
+}
+
+.input-group-text.show-hide{
+  right: 10px;
+  margin-top: 0px;
+}
+
+button.input-group-text {
+  background-color: #303030;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.accordion-button{
+  background-color: #F5F5F5;
+}
+
+.vektor-bantuan-satu{
+  position: absolute;
+  z-index: 0;
+}
+
+.vektor-bantuan-dua {
+  position: absolute;
+  z-index: 0;
+  top: 335px;
+  right: 15px;
+}
+
+.rows-1{
+  position: relative;
+  z-index: 1;
+}
+
+.jam-laporan-presensi {
+  width: 55px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00dfa3;
+}

@@ -1,0 +1,96 @@
+.badge-keterangan-aktif{
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #00DFA3;
+}
+
+.badge-keterangan-nonaktif{
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #EC3528;
+}
+
+.form-control.form-control-edit-kbm {
+    border-radius: 10px;
+    height: 50px;
+    background-color: #D4D4D4;
+}
+
+.btn.btn-md.bg-cancel {
+    background-color: #E5E5E5;
+}
+
+a.label-biru {
+    font-weight: 500;
+    color: #199DFD;
+}
+
+a.btn.btn-detail-tugas {
+    background-color: #EC3528;
+    border-radius: 8px;
+    color: #FFFFFF;
+    height: 45px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+a.btn.btn-detail-kbm {
+    background-color: #FFBD17;
+    border-radius: 8px;
+    color: #000000;
+    height: 45px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.avatar-offline {
+    background-color: #8F8F8F;
+}
+
+.select-group .input-group-addon {
+    background: #F5F5F5;
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.select-group select {
+    border-left: 0;
+    padding-left: 0;
+    box-shadow: none;
+}
+
+div.scrollmenu{
+    overflow: auto;
+  white-space: nowrap;
+}
+
+.input-checkbox{
+    width: auto;
+    min-width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    color: #303030;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+
+.input-checkbox span {
+    margin-left: 5px;
+}

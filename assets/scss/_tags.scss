@@ -1,0 +1,37 @@
+/* tags */
+.tag {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 14px;
+    padding: 0 var(--finwallapp-padding);
+    background-color:var(--finwallapp-card-color);
+    color: var(--finwallapp-theme-text-secondary-light);    
+    border-radius: var(--finwallapp-rounded);
+    display: inline-block;
+
+    & > i {
+        margin-right: 5px;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &.active {
+        color: var(--finwallapp-theme-text-primary);
+        border-color: var(--finwallapp-theme-text-primary) !important;
+    }
+
+    &.tag-small{
+        height: 22px;
+        line-height: 22px;
+        vertical-align: middle;
+        font-size: 12px;
+    }
+
+    &.tag-large{
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}

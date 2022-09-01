@@ -1,0 +1,52 @@
+.row.notifikasi{
+    margin-top: 0.6rem;
+}
+
+i.notifikasi{
+    margin-bottom: 0.35rem;
+}
+
+button.btn.btn-notifikasi-fill{
+    background-color: transparent;
+    border-color: transparent;
+    color: #303030;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button.btn.btn-notifikasi-outline{
+    background-color: transparent;
+    border-color: transparent;
+    color: #303030;
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-notifikasi{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    border-radius: var(--finwallapp-rounded) var(--finwallapp-rounded) 0 0;
+    background-color: var(--finwallapp-footer);
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.07);
+}
+
+.footer-notifikasi .row.notifikasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-bottom: 0.4rem !important;
+}

@@ -1,0 +1,169 @@
+$blue: #3c63e2 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #f73563 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffbd17 !default;
+$green: #00dfa3 !default;
+$teal: #0ab2be !default;
+$cyan: #0dcaf0 !default;
+
+:root {
+    --finwallapp-green: $green;
+    --finwallapp-red: $red;
+    --finwallapp-yellow: $yellow;
+    --finwallapp-blue: $blue;
+    --finwallapp-rounded: 20px;
+    --finwallapp-padding: 15px;   
+    --finwallapp-input-rounded: 10px;
+
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #57bdff;
+    --finwallapp-theme-color-grad-2: #4f77fb;
+    --finwallapp-theme-color-grad-3: #6528cf;
+
+    /* color schemes */
+    --finwallapp-theme-color: #6500d8;
+    --finwallapp-theme-text: #ffffff;
+    --finwallapp-theme-text-primary: #000000;
+    --finwallapp-theme-text-secondary: #999999;
+    --finwallapp-theme-text-secondary-light: #bbbbbb;
+    --finwallapp-theme-bordercolor: rgba(0, 0, 0, 0.1);
+
+    --finwallapp-header: transparent;
+    --finwallapp-header-active: #ffffff;
+    --finwallapp-footer: #ffffff;
+    --finwallapp-sidebar: var(--finwallapp-theme-color);
+    --finwallapp-card-color: #ffffff;
+
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #eff6f9;
+    --finwallapp-page-bg-3: #faf0fb;
+    --finwallapp-page-text: #000000;
+    --finwallapp-page-link: var(--finwallapp-theme-color);
+}
+
+.theme-indigo {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #8b9dff;
+    --finwallapp-theme-color-grad-2: #5c00f1;
+    --finwallapp-theme-color-grad-3: #68008e;
+
+   /* color schemes */
+   --finwallapp-theme-color: $indigo;
+   --finwallapp-page-bg-1: #ffffff;
+   --finwallapp-page-bg-2: #f1eff9;
+   --finwallapp-page-bg-3: #f6f0fb;
+}
+
+.theme-purple {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #e908d8;
+    --finwallapp-theme-color-grad-2: #5a2ab3;
+    --finwallapp-theme-color-grad-3: #300284;
+
+    /* color schemes */
+    --finwallapp-theme-color: $purple;
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #fff5fc;
+    --finwallapp-page-bg-3: #f6f0fb;
+}
+
+.theme-pink {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #ff71c3;
+    --finwallapp-theme-color-grad-2: #e80075;
+    --finwallapp-theme-color-grad-3: #4d00da;
+
+    /* color schemes */
+    --finwallapp-theme-color: $pink;
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #f4f8ff;
+    --finwallapp-page-bg-3: #ffe9f7;
+}
+
+.theme-red {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #ffc699;
+    --finwallapp-theme-color-grad-2: #ff5d83;
+    --finwallapp-theme-color-grad-3: #dc006a;
+
+    /* color schemes */
+    --finwallapp-theme-color: $red;
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #fffbf2;
+    --finwallapp-page-bg-3: #ffeeee;
+}
+
+.theme-orange {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #ffda6b;
+    --finwallapp-theme-color-grad-2: #ff7c15;
+    --finwallapp-theme-color-grad-3: #e80774;
+
+   /* color schemes */
+   --finwallapp-theme-color: $orange;
+   --finwallapp-page-bg-1: #ffffff;
+   --finwallapp-page-bg-2: #fffaf4;
+   --finwallapp-page-bg-3: #fff4eb;
+}
+
+.theme-yellow {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #ffdb6f;
+    --finwallapp-theme-color-grad-2: #f0ac00;
+    --finwallapp-theme-color-grad-3: #f03000;
+
+    /* color schemes */
+    --finwallapp-theme-color: $yellow;
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #f9f4ef;
+    --finwallapp-page-bg-3: #fbf8f0;
+}
+
+.theme-green {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #bdffaa;
+    --finwallapp-theme-color-grad-2: #04c5de;
+    --finwallapp-theme-color-grad-3: #00a0f5;
+
+    /* color schemes */
+    --finwallapp-theme-color: $green;    
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #eff6f9;
+    --finwallapp-page-bg-3: #e6f7f0;
+}
+
+.theme-teal {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #a2fffa;
+    --finwallapp-theme-color-grad-2: #00a2ad;
+    --finwallapp-theme-color-grad-3: #3f51b5;
+
+   /* color schemes */
+   --finwallapp-theme-color: $teal;
+   --finwallapp-page-bg-1: #ffffff;
+   --finwallapp-page-bg-2: #fff7fd;
+   --finwallapp-page-bg-3: #e8faf8;
+}
+
+.theme-cyan {
+    /* radial gradient colors */
+    --finwallapp-theme-color-grad-1: #74e5fb;
+    --finwallapp-theme-color-grad-2: #258cd6;
+    --finwallapp-theme-color-grad-3: #3d00ab;
+
+    /* color schemes */
+    --finwallapp-theme-color: $cyan;
+    --finwallapp-page-bg-1: #ffffff;
+    --finwallapp-page-bg-2: #f1eff9;
+    --finwallapp-page-bg-3: #f0f8fb;
+}
+
+@media screen and (max-width: 340px) {
+    :root {
+        --finwallapp-padding: 10px;
+        --finwallapp-rounded: 12px;
+    }
+}

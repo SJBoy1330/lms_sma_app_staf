@@ -1,0 +1,230 @@
+.card.tugas {
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(255, 230, 230, 1) !important;
+    -moz-box-shadow: 0px 0px 12px 2px rgba(255, 230, 230, 1) !important;
+    box-shadow: 0px 0px 12px 2px rgba(255, 230, 230, 1) !important;
+}
+
+.bg-tugas {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.bg-tugas-pelajaran {
+    background-color: #FFE6E6;
+    border: 1px solid #EC3528;
+    border-radius: 15px;
+}
+
+.form-control.form-control-solid.form-control-pribadi.file-input {
+    padding-top: 12px;
+}
+
+.wrapper-files {
+    position: absolute;
+    top: 630px;
+    left: 16px;
+    background-color: #E5E5E5;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 119px;
+    border-radius: 10px 0px 0px 10px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+.form-check.form-switch .form-check-input {
+    height: 25px;
+    width: 45px;
+}
+
+.bg-button {
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.btn.bg-button:hover {
+    background-color: #E5E5E5;
+}
+
+.button-action {
+    top: 12px;
+    right: 15px;
+}
+
+.btn-value {
+    border-radius: 8px;
+    min-width: 43px;
+}
+
+.badge-keterangan-kelas {
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #EC3528;
+}
+
+.wrapper-samaran {
+    background-color: transparent;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    top: -20px;
+}
+
+.wrapper-searching-tugas {
+    height: 65px;
+    z-index: 1;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.tagar{
+    width: auto;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #EC3528;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn.btn-sm.plus-tagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC3528;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+/* .row.checkbox{
+    max-height: 205px; 
+    overflow-y: auto;
+    background: linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+    background: linear-gradient(white 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+} */
+
+.row.checkbox {
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    max-height: 205px; 
+    background: #FFF no-repeat;
+    background-image: -webkit-radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), -webkit-radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-image: -moz-radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), -moz-radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-image: radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-position: 0 0, 0 100%;
+    background-size: 100% 14px;
+  }
+  
+.row.checkbox:before,
+.row.checkbox:after {
+    content: "";
+    position: relative;
+    z-index: -1;
+    display: block;
+    height: 30px;
+    margin: 0 0 -30px;
+    background: -webkit-linear-gradient(top, #FFF, #FFF 30%, rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(top, #FFF, #FFF 30%, rgba(255, 255, 255, 0));
+    background: linear-gradient(to bottom, #FFF, #FFF 30%, rgba(255, 255, 255, 0));
+}
+  
+.row.checkbox:after {
+    margin: -30px 0 0;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #FFF 70%, #FFF);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #FFF 70%, #FFF);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #FFF 70%, #FFF);
+}
+
+.input-checkbox-tagar{
+    width: auto;
+    min-width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #EC3528;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+  
+.input-checkbox-tagar span{
+    margin-left: 5px;
+}
+
+#files-area {
+    width: 100%;
+    margin: 0 auto;
+}
+  
+.file-block {
+    border-radius: 10px;
+    background-color: rgba(144, 163, 203, 0.2);
+    margin: 5px;
+    color: initial;
+    display: inline-flex;
+}
+
+.file-block > span.name {
+    margin: 10px 0px 10px 5px;
+    padding-right: 10px;
+    display: inline-flex;
+}
+  
+.file-delete {
+    display: flex;
+    width: 24px;
+    color: initial;
+    background-color: #6eb4ff00;
+    font-size: large;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.file-delete:hover {
+    background-color: rgba(144, 163, 203, 0.2);
+    border-radius: 10px;
+}
+
+.file-delete > span {
+    transform: rotate(45deg);
+}
+
+.wrapper-tagar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1em;
+    height: 1em;
+}
+
+.form-control.form-control-tugas{
+    border-radius: 10px;
+    height: 40px;
+    background-color: #F5F5F5 !important;
+}

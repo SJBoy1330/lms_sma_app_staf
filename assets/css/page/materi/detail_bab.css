@@ -1,0 +1,150 @@
+.menu {
+    z-index: 10;
+    width: 300px;
+    height: 125px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .toggle{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background: #EC3528;
+	color: #FFFFFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	transition: 0.5s;
+}
+
+.menu .toggle.active{
+	transform: rotate(315deg);
+	box-shadow: 0 0 0 45px #EC3528;
+	background: #FFFFFF;
+	color: #EC3528;
+}
+
+.menu li{
+	position: absolute;
+	left: 26px;
+	list-style: none;
+	transform: rotate(calc(360deg / 4 * var(--i)))
+	translateX(45px);
+	transform-origin: 125px;
+	visibility: hidden;
+	opacity: 0;
+	transition  : 0.5s;
+	z-index: 10;
+}
+
+.menu.active li{
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu li a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 55px;
+	height: 55px;
+	color: #FFFFFF;
+	transform: rotate(calc(360deg / -4 * var(--i)));
+}
+
+.menu.active li.active{
+	transform: rotate(calc(360deg / 4 * var(--i)))
+	translateX(12px);
+}
+ 
+.indicator{
+	position: absolute;
+	left: calc(50% + 2.5px);
+	transform-origin: right;
+	width: 100px;
+	height: 1px;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.indicator::before{
+	content: '';
+	position: absolute;
+	top: -27.5px;
+	left: 72px;
+	width: 55px;
+	height: 55px;
+	background: #222237;
+	box-shadow: 0 0 0 6px #29FD53;
+	border-radius: 50%;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.menu.active .indicator::before{
+	opacity: 1;
+	top: -27.5px;
+	left: -13px;
+	background: #00CF98;
+	box-shadow: 0 0 0 6px #FFFFFF;
+}
+
+.menu li:nth-child(2).active ~ .indicator{
+	transform: translateX(-103px) rotate(0deg);
+}
+
+.menu li:nth-child(3).active ~ .indicator{
+	transform: translateX(-103px) rotate(90deg);
+}
+
+.menu li:nth-child(4).active ~ .indicator{
+	transform: translateX(-103px) rotate(180deg);
+}
+
+.bg-dropdown{
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.btn.bg-dropdown:hover{
+    background-color: #E5E5E5;
+}
+
+.dropdown-menu.show {
+    display: block;
+    border-radius: 20px;
+	z-index: 1;
+}
+
+.btn.btn-cancel{
+    background-color: #EC3528;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 50px;
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.btn.btn-cancel:hover{
+	-webkit-box-shadow: 0px 0px 15px 5px #EC706B; 
+	box-shadow: 0px 0px 0px 5px #EC706B;
+}
+
+.btn.btn-yes{
+    background-color: #00CF98;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 50px;
+    height: 48px !important;
+    width: 48px !important;
+}
+
+.btn.btn-yes:hover{
+	-webkit-box-shadow: 0px 0px 15px 5px #72CFA7; 
+	box-shadow: 0px 0px 0px 5px #72CFA7;
+}

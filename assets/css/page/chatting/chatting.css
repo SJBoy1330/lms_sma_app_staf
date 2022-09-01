@@ -1,0 +1,147 @@
+.tablinknya-tugas-ujian {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 100vw;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: #C4C4C4;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #e5e3e3;
+}
+
+.avatar.avatar-60.bg-image-modal {
+  background-color: #5153FF !important;
+}
+
+.modal-body .image-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-footer {
+  height: 15%;
+}
+
+.avatar-upload {
+  width: 100%;
+  height: 100%;
+}
+
+.avatar-upload .avatar-preview {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  position: relative;
+  border: 2px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview>figure {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#upload-file {
+  display: none;
+}
+
+#upload-file2 {
+  display: none;
+}
+
+
+.reply-text {
+  background-color: #F5F5F5;
+  border-radius: 20px 20px 0px 0px;
+  bottom: 35px;
+  z-index: -1;
+  width: 268px;
+  max-height: 225px;
+  height: auto;
+  min-height: 135px;
+  position: absolute;
+}
+
+.column-reply {
+  max-height: 100px;
+  height: auto;
+  min-height: 75px;
+  border-radius: 15px;
+  text-align: left;
+  margin: 10px 10px 40px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #e4e3e3;
+}
+
+.reply-text-pengirim {
+  background-color: #F5F5F5;
+  bottom: 45px;
+  height: auto;
+  min-width: 150px;
+  width: auto;
+  max-width: 302.4px;
+}
+
+.column-reply-pengirim {
+  max-height: 100px;
+  height: auto;
+  min-height: 55px;
+  border-radius: 10px;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  background-color: #e4e3e3;
+  max-width: 100%;
+  width: auto;
+}
+
+.reply-text-penerima {
+  background-color: #EC3528;
+  bottom: 45px;
+  height: auto;
+  min-width: 150px;
+  width: 100%;
+  max-width: 302.4px;
+}
+
+.column-reply-penerima {
+  max-height: 100px;
+  height: auto;
+  min-height: 55px;
+  border-radius: 10px;
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  background-color: #a50000;
+  max-width: 100%;
+  width: auto;
+}
+
+textarea[type="text"]::placeholder {
+  text-align: start;
+}
+
+.form-floating.chatting{
+  width: 99% !important;
+}

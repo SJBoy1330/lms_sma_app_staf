@@ -1,0 +1,76 @@
+.button-action {
+    top: 12px;
+    right: 15px;
+}
+
+.bg-button{
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.btn.bg-button:hover{
+    background-color: #E5E5E5;
+}
+
+.garis {
+    width: 15px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: #ec3528;
+}
+
+.badge-keterangan-aktif{
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #00DFA3;
+}
+
+.badge-keterangan-nonaktif{
+    top: 0;
+    right: 0;
+    border-radius: 0px 10px 0px 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 85px;
+    height: 28px;
+    background-color: #EC3528;
+}
+
+.form-floating .form-control {
+    border-radius: 10px;
+    height: 50px;
+}
+
+.form-floating .form-control.none-value {
+    border-radius: 10px;
+    height: 50px;
+    background-color: #F5F5F5;
+}
+
+button.btn-tambah-tugas {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid#EC3528;
+    border-radius: 8px;
+    color: #EC3528;
+    height: 45px;
+    padding-top: 10px;
+}
+
+button.btn.btn-reset{
+    background-color: transparent; 
+    border-radius: 8px; 
+    color: #EC3528; 
+    border: 1px solid #EC3528;
+}
