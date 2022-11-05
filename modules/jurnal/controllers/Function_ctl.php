@@ -87,4 +87,25 @@ class Function_ctl extends MY_Frontend
         echo json_encode($data);
         exit;
     }
+
+    public function hapus_jurnal_staf()
+    {
+        $id_jurnal = $this->input->post('id_jurnal');
+        if (!$id_jurnal) {
+            $data['status'] = false;
+            $data['alert']['title'] = 'PERINGATAN';
+            $data['alert']['message'] = 'Data jurnal tidak tersedia!';
+        }
+
+        $hapus = curl_post('jurnal/hapus_jurnal_staf/');
+        if ($hapus) {
+            $data['status'] = false;
+            $data['alert']['title'] = 'PEMBERITAHUAN';
+        } else {
+            $data['status'] = false;
+            $data['alert']['title'] = 'PERINGATAN';
+        }
+        $data['alert']['message'] = 'Data jurnal tidak tersedia!';
+        echo json_encode($data);
+    }
 }
